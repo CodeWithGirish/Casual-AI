@@ -1,0 +1,50 @@
+id,cause_variable,effect_variable,lag_days,strength,confidence_lower,confidence_upper,p_value,is_nonlinear,nonlinearity_type,sample_size,analysis_method,created_at,updated_at
+6a494ce4-0d00-4732-ad25-b8d9c38f3589,policy_index,economic_loss,14,-0.25,-0.39,-0.11,0.001,False,,1361,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+7566cfed-0b4e-4602-9625-a0821cbf4e3d,elevation,population,162,-0.71,-0.8,-0.65,0.001,True,Quadratic,531,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+b46cf518-e016-4fcc-8226-c12674aba331,drought_index,elevation,101,0.23,0.13,0.38,0.001,False,,1145,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+839a8a74-0469-44b7-96a1-aaa53e001f90,policy_index,elevation,81,0.15,0.04,0.27,0.001,False,,1049,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+e6ec89b9-310e-4f93-9092-5a050b87c002,policy_index,population,147,0.45,0.33,0.57,0.001,False,,1592,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+1e84b840-328c-4390-8d8f-f901399dc09a,water_stress_index,crop_failure_rate,22,-0.86,-1.0,-0.74,0.001,True,Quadratic,861,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+87e4b789-38c1-4a23-8a37-8db9e833f977,economic_loss,policy_index,69,-0.27,-0.34,-0.12,0.001,False,,641,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+54dd2bb4-2b1a-4d11-9815-50d781c339a2,population,elevation,125,0.4,0.31,0.52,0.001,True,,1117,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+86c6ee3e-40e1-4182-81cb-e4944c7e8295,economic_loss,policy_index,169,-0.29,-0.37,-0.22,0.001,True,Quadratic,1809,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+5e0be372-217e-4a23-9fc6-f7373ab79d9c,drought_index,policy_index,65,-1.0,-1.12,-0.95,0.001,True,Quadratic,1612,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+5804a714-ba4c-48ce-8b05-bb1d5ffbe8c8,crop_failure_rate,infrastructure_quality,68,-0.13,-0.22,-0.04,0.001,True,,1053,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+a85406c1-5a35-46e5-b4f7-2b332f39c17e,water_stress_index,net_migration,162,0.03,-0.11,0.13,0.001,True,,1567,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+d1ecd1ef-4e52-4f43-853a-c3f8e6891b9a,water_stress_index,policy_index,139,0.6,0.46,0.69,0.001,False,,1089,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+1f6a9ce3-b5c9-4652-9df0-1efbfa21c096,policy_index,economic_loss,53,0.93,0.81,1.0,0.001,True,,1471,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+584e5228-e9b7-4cb5-9db9-85199964e87b,elevation,water_stress_index,159,0.68,0.56,0.79,0.001,False,,1368,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+ddbea038-ef2c-413f-a0b8-afeb0e5d68f3,net_migration,elevation,175,0.74,0.68,0.8,0.001,True,,502,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+8e86e4d7-1f03-428e-b9bd-0b659ee1685a,population,net_migration,7,0.14,0.0,0.21,0.001,True,Sigmoid,772,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+620593f1-7dfe-4dbc-9710-6ded665dc678,elevation,water_stress_index,64,0.85,0.79,0.93,0.001,True,Sigmoid,1984,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+a46d08c7-7c95-4d86-921b-b770dc0c29ac,elevation,net_migration,32,0.03,-0.07,0.17,0.001,True,,766,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+c646da17-94d5-4aee-9540-eb73e1fc9067,net_migration,crop_failure_rate,98,0.36,0.29,0.5,0.001,True,Logarithmic,1965,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+52130632-757a-4ebc-8063-0b72e9d6038b,water_stress_index,population,101,-0.58,-0.66,-0.49,0.001,True,Quadratic,1748,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+3ac8a754-a85e-47e3-95f5-db1bc2704407,population,net_migration,0,-0.84,-0.92,-0.76,0.001,True,Quadratic,1097,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+9c6ae69d-92df-4eb6-872e-f883c06fc64c,water_stress_index,population,59,-0.29,-0.4,-0.18,0.001,False,,612,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+dbc895b4-a8a2-4501-8f02-842c0a3e9c53,policy_index,net_migration,29,0.11,0.03,0.25,0.001,True,Logarithmic,1729,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+2feac21b-18f5-4834-aaae-3336f0686276,economic_loss,water_stress_index,4,0.61,0.55,0.74,0.001,True,Sigmoid,610,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+a50d433a-bea4-4384-ae13-31f0daa233a1,water_stress_index,population,104,0.35,0.23,0.49,0.001,True,,1090,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+5a6e96d4-2b78-4257-8ee0-ea5770e2c75e,policy_index,population,150,-0.37,-0.48,-0.28,0.001,True,Quadratic,1696,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+583bb789-d958-4969-a4a6-47d7a6950f27,infrastructure_quality,drought_index,38,0.5,0.39,0.56,0.001,False,,1115,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+05960da3-f77a-4be1-b6ec-98f7ab36c85b,policy_index,net_migration,74,0.08,0.03,0.2,0.001,True,Quadratic,631,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+be66c092-88b9-49e0-8df5-6b5380ff9fce,water_stress_index,infrastructure_quality,49,0.13,0.04,0.24,0.001,False,,1823,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+8dede9a7-ea29-444c-ac86-9be967fc8351,crop_failure_rate,policy_index,134,-0.3,-0.44,-0.16,0.001,False,,912,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+adbdec93-d35d-44c5-9238-124ba7497860,drought_index,water_stress_index,108,-0.5,-0.64,-0.37,0.001,True,,806,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+5342cc42-8ec6-428a-a286-8a3aebfa8414,population,economic_loss,122,-0.9,-0.97,-0.76,0.001,False,,1332,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+a69dad7d-9322-4701-9b1a-c1e8079a96d4,crop_failure_rate,infrastructure_quality,70,-0.28,-0.35,-0.22,0.001,False,,1151,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+2056264d-1f29-4e46-a208-3444a5765c1f,policy_index,elevation,56,0.44,0.35,0.57,0.001,False,,1430,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+5675481f-f309-4506-949b-ed0e29a1559e,net_migration,infrastructure_quality,138,0.06,-0.05,0.17,0.001,True,Logarithmic,1872,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+6b124e4d-b85f-440c-8da4-d694b91385ae,policy_index,drought_index,64,0.27,0.21,0.34,0.001,True,Quadratic,666,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+4b7d59cb-9f81-4257-a92b-891ab5be57f8,policy_index,economic_loss,48,-0.64,-0.74,-0.51,0.001,False,,891,Constraint-based,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+04bfcc8a-1c19-46f0-940d-7c2d2e789e03,drought_index,infrastructure_quality,22,-0.36,-0.41,-0.3,0.001,False,,1707,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+1dc0d07c-77ee-48ae-ac93-40d69017da71,drought_index,infrastructure_quality,95,0.72,0.63,0.77,0.001,True,Logarithmic,1584,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+44784a5a-6ae5-43b5-8c06-f368001273ca,infrastructure_quality,net_migration,64,0.93,0.82,0.98,0.001,False,,1109,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+fadd630a-bb6c-4832-bfed-04e2ff710d81,crop_failure_rate,infrastructure_quality,66,0.61,0.51,0.72,0.001,True,Quadratic,1645,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+3714b0cb-92f4-4315-8d5d-c301efc32615,elevation,drought_index,167,-0.64,-0.77,-0.5,0.001,True,Quadratic,1743,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+5f85927a-4068-4336-bd80-d6b3204df704,water_stress_index,drought_index,73,-0.67,-0.8,-0.52,0.001,True,Quadratic,1891,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+6251eaf7-8ee1-4fa4-91f8-43af152615c4,economic_loss,policy_index,30,-0.49,-0.55,-0.37,0.001,True,,1094,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+dc550a0d-7035-4438-ad32-5cdb52a06f16,drought_index,net_migration,102,-0.23,-0.32,-0.15,0.001,False,,1604,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+3469b5af-5ed5-4324-b596-bf69d5955f4e,water_stress_index,infrastructure_quality,12,-0.36,-0.47,-0.27,0.001,True,Logarithmic,692,Granger Causality,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+2a071fef-8ce7-4d92-8501-f7a427f56928,crop_failure_rate,economic_loss,114,0.18,0.05,0.28,0.001,False,,1479,DirectLiNGAM,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z
+a3a78e01-6f6f-49f6-83a6-236bfccece24,drought_index,crop_failure_rate,97,-0.49,-0.54,-0.39,0.001,True,Logarithmic,1807,PC Algorithm,2024-01-01T00:00:00Z,2024-01-01T00:00:00Z

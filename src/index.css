@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 20% 7%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 20% 6%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 24 100% 60%;
+    --primary-foreground: 220 20% 4%;
+
+    --secondary: 187 100% 45%;
+    --secondary-foreground: 220 20% 4%;
+
+    --muted: 220 15% 12%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 187 100% 45%;
+    --accent-foreground: 220 20% 4%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 142 76% 45%;
+    --success-foreground: 220 20% 4%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 220 20% 4%;
+
+    --border: 220 15% 15%;
+    --input: 220 15% 15%;
+    --ring: 24 100% 60%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --saffron: 24 100% 60%;
+    --saffron-glow: 24 100% 70%;
+    --cyan: 187 100% 45%;
+    --cyan-glow: 187 100% 55%;
+    --navy: 220 30% 10%;
+    --navy-light: 220 25% 14%;
+
+    /* Gradients */
+    --gradient-saffron: linear-gradient(135deg, hsl(24 100% 60%), hsl(35 100% 50%));
+    --gradient-cyan: linear-gradient(135deg, hsl(187 100% 45%), hsl(200 100% 50%));
+    --gradient-dark: linear-gradient(180deg, hsl(220 20% 6%), hsl(220 20% 3%));
+    --gradient-card: linear-gradient(135deg, hsl(220 20% 8% / 0.9), hsl(220 20% 5% / 0.9));
+    --gradient-glow-saffron: radial-gradient(ellipse at center, hsl(24 100% 60% / 0.15), transparent 70%);
+    --gradient-glow-cyan: radial-gradient(ellipse at center, hsl(187 100% 45% / 0.15), transparent 70%);
+
+    /* Shadows */
+    --shadow-saffron: 0 0 30px -5px hsl(24 100% 60% / 0.4);
+    --shadow-cyan: 0 0 30px -5px hsl(187 100% 45% / 0.4);
+    --shadow-card: 0 8px 32px -8px hsl(0 0% 0% / 0.5);
+    --shadow-glow: 0 0 60px -10px hsl(24 100% 60% / 0.3);
+
+    --sidebar-background: 220 20% 6%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 24 100% 60%;
+    --sidebar-primary-foreground: 220 20% 4%;
+    --sidebar-accent: 220 15% 12%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 220 15% 15%;
+    --sidebar-ring: 24 100% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-xl border border-border/50 rounded-xl;
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-card);
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300;
+  }
+
+  .glass-card-hover:hover {
+    @apply border-primary/30;
+    box-shadow: var(--shadow-saffron);
+  }
+
+  .glow-saffron {
+    box-shadow: var(--shadow-saffron);
+  }
+
+  .glow-cyan {
+    box-shadow: var(--shadow-cyan);
+  }
+
+  .text-gradient-saffron {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-saffron);
+  }
+
+  .text-gradient-cyan {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-cyan);
+  }
+
+  .bg-gradient-saffron {
+    background: var(--gradient-saffron);
+  }
+
+  .bg-gradient-cyan {
+    background: var(--gradient-cyan);
+  }
+
+  .ticker-scroll {
+    animation: ticker 30s linear infinite;
+  }
+
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  .float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .data-pulse {
+    animation: data-pulse 1.5s ease-in-out infinite;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px hsl(24 100% 60% / 0.6));
+  }
+  50% {
+    opacity: 0.7;
+    filter: drop-shadow(0 0 20px hsl(24 100% 60% / 0.8));
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes data-pulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Custom scrollbar for glass cards */
+.glass-card::-webkit-scrollbar {
+  width: 6px;
+}
+
+.glass-card::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 3px;
+}
+
+.glass-card::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.5);
+  border-radius: 3px;
+}
+
+.glass-card::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.7);
+}

@@ -1,0 +1,50 @@
+id,district_id,event_type,severity,impact_score,event_date,description,created_at
+1,245,Drought,Critical,0.3,2024-09-10,Automated monitoring detected surge in regional indicators.,2025-11-28T06:19:58.694901
+2,813,Heatwave,Low,0.58,2023-07-03,Automated monitoring detected surge in regional indicators.,2025-06-22T06:19:58.694901
+3,310,Water Crisis,Medium,0.49,2025-12-13,Automated monitoring detected drop in regional indicators.,2025-07-31T06:19:58.694901
+4,945,Heatwave,Low,0.25,2025-12-04,Automated monitoring detected drop in regional indicators.,2025-10-19T06:19:58.694901
+5,348,Crop Failure,Critical,0.34,2024-04-05,Automated monitoring detected anomaly in regional indicators.,2025-05-19T06:19:58.694901
+6,235,Heatwave,Medium,0.7,2024-06-15,Automated monitoring detected drop in regional indicators.,2025-01-31T06:19:58.695898
+7,348,Crop Failure,High,0.77,2025-09-11,Automated monitoring detected drop in regional indicators.,2025-07-01T06:19:58.695898
+8,1000,Flood,Critical,0.33,2024-01-15,Automated monitoring detected anomaly in regional indicators.,2025-02-07T06:19:58.695898
+9,15,Crop Failure,Medium,0.63,2024-07-20,Automated monitoring detected surge in regional indicators.,2025-04-19T06:19:58.695898
+10,865,Drought,High,0.12,2024-08-04,Automated monitoring detected drop in regional indicators.,2025-07-23T06:19:58.695898
+11,1165,Crop Failure,Critical,0.41,2024-07-13,Automated monitoring detected anomaly in regional indicators.,2026-01-26T06:19:58.695898
+12,474,Drought,Critical,0.33,2025-04-13,Automated monitoring detected surge in regional indicators.,2025-12-08T06:19:58.697930
+13,1424,Heatwave,Low,0.11,2024-05-16,Automated monitoring detected anomaly in regional indicators.,2025-11-01T06:19:58.697930
+14,1407,Crop Failure,Medium,0.53,2023-07-29,Automated monitoring detected drop in regional indicators.,2025-11-01T06:19:58.697930
+15,1443,Drought,Critical,0.76,2023-05-26,Automated monitoring detected surge in regional indicators.,2025-10-25T06:19:58.697930
+16,848,Drought,High,0.27,2025-04-14,Automated monitoring detected surge in regional indicators.,2025-09-08T06:19:58.697930
+17,333,Drought,Critical,0.6,2024-06-24,Automated monitoring detected drop in regional indicators.,2025-08-08T06:19:58.697930
+18,1147,Drought,Medium,0.94,2025-05-02,Automated monitoring detected anomaly in regional indicators.,2025-08-22T06:19:58.697930
+19,808,Water Crisis,Critical,0.37,2023-06-27,Automated monitoring detected surge in regional indicators.,2025-05-02T06:19:58.698784
+20,1072,Heatwave,Critical,0.64,2026-01-19,Automated monitoring detected drop in regional indicators.,2025-04-12T06:19:58.698784
+21,539,Drought,Low,0.3,2023-09-15,Automated monitoring detected drop in regional indicators.,2025-04-24T06:19:58.698784
+22,1314,Crop Failure,High,0.43,2025-11-17,Automated monitoring detected surge in regional indicators.,2025-07-03T06:19:58.698784
+23,1220,Flood,Critical,0.54,2024-04-04,Automated monitoring detected anomaly in regional indicators.,2025-06-16T06:19:58.698784
+24,999,Flood,Medium,0.49,2024-12-16,Automated monitoring detected anomaly in regional indicators.,2025-05-23T06:19:58.698784
+25,969,Crop Failure,Critical,0.88,2024-05-28,Automated monitoring detected drop in regional indicators.,2025-12-07T06:19:58.699301
+26,539,Drought,Medium,0.5,2023-09-10,Automated monitoring detected surge in regional indicators.,2025-05-08T06:19:58.699301
+27,48,Crop Failure,High,0.48,2023-11-15,Automated monitoring detected drop in regional indicators.,2025-02-03T06:19:58.699301
+28,304,Drought,High,0.96,2024-12-17,Automated monitoring detected anomaly in regional indicators.,2025-01-30T06:19:58.699301
+29,530,Water Crisis,Low,0.77,2024-12-30,Automated monitoring detected drop in regional indicators.,2025-08-12T06:19:58.699301
+30,1383,Drought,Low,0.72,2025-08-17,Automated monitoring detected drop in regional indicators.,2025-09-25T06:19:58.699301
+31,529,Crop Failure,Medium,0.1,2024-04-28,Automated monitoring detected drop in regional indicators.,2025-06-13T06:19:58.699814
+32,302,Drought,High,0.86,2025-03-08,Automated monitoring detected anomaly in regional indicators.,2025-12-30T06:19:58.699814
+33,213,Water Crisis,High,0.45,2024-04-04,Automated monitoring detected surge in regional indicators.,2025-07-20T06:19:58.699814
+34,667,Drought,Critical,0.63,2024-12-16,Automated monitoring detected drop in regional indicators.,2025-07-30T06:19:58.699814
+35,300,Flood,Low,0.19,2023-08-29,Automated monitoring detected anomaly in regional indicators.,2026-01-07T06:19:58.699814
+36,1070,Heatwave,Low,0.55,2023-10-02,Automated monitoring detected anomaly in regional indicators.,2025-02-10T06:19:58.699814
+37,1080,Heatwave,High,0.96,2024-09-21,Automated monitoring detected surge in regional indicators.,2025-04-26T06:19:58.700325
+38,991,Crop Failure,Low,0.31,2023-08-22,Automated monitoring detected anomaly in regional indicators.,2025-09-10T06:19:58.700325
+39,851,Drought,Medium,0.72,2024-08-24,Automated monitoring detected anomaly in regional indicators.,2025-02-09T06:19:58.700325
+40,852,Crop Failure,Critical,0.79,2026-01-03,Automated monitoring detected drop in regional indicators.,2025-03-30T06:19:58.700325
+41,1301,Drought,Critical,0.18,2023-05-30,Automated monitoring detected anomaly in regional indicators.,2025-10-03T06:19:58.700325
+42,1421,Flood,Medium,0.34,2023-06-02,Automated monitoring detected anomaly in regional indicators.,2026-01-10T06:19:58.700325
+43,11,Flood,Low,0.84,2023-07-30,Automated monitoring detected anomaly in regional indicators.,2025-08-26T06:19:58.700837
+44,875,Drought,Low,0.47,2024-05-21,Automated monitoring detected drop in regional indicators.,2026-01-16T06:19:58.700837
+45,1474,Flood,High,0.52,2023-07-16,Automated monitoring detected surge in regional indicators.,2025-07-01T06:19:58.700837
+46,1196,Crop Failure,Low,0.48,2025-05-30,Automated monitoring detected drop in regional indicators.,2025-02-27T06:19:58.700837
+47,731,Drought,Low,0.63,2025-04-23,Automated monitoring detected drop in regional indicators.,2026-01-12T06:19:58.700837
+48,377,Water Crisis,Medium,0.7,2025-09-24,Automated monitoring detected anomaly in regional indicators.,2025-10-27T06:19:58.700837
+49,1306,Water Crisis,Medium,0.49,2024-03-24,Automated monitoring detected anomaly in regional indicators.,2025-03-06T06:19:58.700837
