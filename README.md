@@ -9,10 +9,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/CodeWithGirish/Casual-AI.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd Casual AI
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -49,3 +49,4 @@ This project is built with:
 
 Yes, you can!
 "# Casual-AI" 
+
